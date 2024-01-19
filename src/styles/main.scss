@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+body{
+  -webkit-text-size-adjust: 100%;
+}
+.border{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: none;
+  border-bottom: none;
+}
+.home-bg{
+  background-image: -webkit-linear-gradient(160deg, #000 50%, #D7D7D7 50%);
+}
+// .home-bg2{
+//   background-image: -webkit-linear-gradient(277deg, #000 50%, #D7D7D7 50%);
+// }
+.all-bg{
+  background-color: #D7D7D7;
+}
+
+.language-bg{
+  background-color: rgb(208, 205, 205)
+}
+.box-shadow:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all .2s linear;
+}
+
+.border2{
+  border-left: 5px solid black;
+  border-right:none;
+  border-top: none;
+  border-bottom:  5px solid black;
+}
+  
+.border3{
+  border: 1px solid black;
+}
+
+.border4{
+  border: 3px solid black;
+}
+.border5{
+  border-top: 2px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+// .profil-border{
+//   border: 1px solid;
+//   border-radius: 50%;
+//   overflow: hidden;
+// }
+
+.border-hover{
+  // background: #fff;
+  border-radius: .5rem;
+  text-align: center;
+  padding:3rem 2rem;
+  outline-offset: -1rem;
+  outline: .1rem solid rgba(0,0,0,.1);
+  box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  transition: .2s linear;
+  &:hover{
+    outline:.2rem solid #aaa;
+    outline-offset: 0rem;
+  }
+  
+}
+
+
+
+.hover-navbar{
+    ::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #fff;
+    transition: width .3s ease-in;
+}
+    :hover::after {
+    width: 100%; 
+}
+}
+.hover-info{
+  ::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #000;
+  transition: width .3s ease-in;
+}
+  :hover::after {
+  width: 100%; 
+}
+}
+.hover-social:hover{
+    
+        transform: translateY(-0.7rem);
+        transition: all .2s linear;
+    
+    
+}
+
+
+.clip-path{
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.main {
+    overflow: hidden;
+    .pages {
+        height: 60rem;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.5s ease;
+        transform: translateY(100%);
+      }
+      
+  }
+  
+ 
+  .pages.active-page {
+    transform: translateY(0);
+  }
+
+  .image-content{
+    position: relative;
+    overflow: hidden;
+    .transition-link{
+      position: absolute;
+      top: -100%;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #01030380;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: .30s ease-in-out;
+      pointer-events: none;
+      a{
+        .link-btn{
+          &:hover{
+            transform: rotateY(180deg);
+            transition: .30s ease-in-out;
+          }
+        }
+      }
+      
+    }
+    &:hover{
+      .transition-link{
+        opacity: 1;
+        top: 0;
+        pointer-events: all;
+      }   
+    }
+
+  }
+  
+  .half-img{
+    position: relative;
+    bottom: 500px;
+  }
+
+
+
+
+  // .home-bg{
+  //   background-image: -webkit-linear-gradient(160deg, #000 50%, #D7D7D7 50%);
+  // }
+  // .home-bg2{
+  //   background-image: -webkit-linear-gradient(277deg, #000 50%, #D7D7D7 50%);
+  // }
+
+
+  
+  @media screen and (max-width:575px) {
+    .home-bg{
+      background-image: -webkit-linear-gradient(277deg, #000 50%, #D7D7D7 50%);
+    }
+    .profil-border{
+      border: 1px solid;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    img.profile-image {
+      content: url("../image/rs_alisahib-20231212-0001.jpg");
+  }
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 767px){
+    .home-bg{
+      background-image: -webkit-linear-gradient(277deg, #000 50%, #D7D7D7 50%);
+    }
+    .profil-border{
+      border: 1px solid;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    img.profile-image {
+      content: url("../image/rs_alisahib-20231212-0001.jpg");
+  }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .home-bg{
+      background-image: -webkit-linear-gradient(277deg, #000 50%, #D7D7D7 50%);
+    }
+    .profil-border{
+      border: 1px solid;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    img.profile-image {
+      content: url("../image/rs_alisahib-20231212-0001.jpg");
+  }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .home-bg{
+      background-image: -webkit-linear-gradient(277deg, #000 50%, #D7D7D7 50%);
+    }
+    .profil-border{
+      border: 1px solid;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    img.profile-image {
+      content: url("../image/rs_alisahib-20231212-0001.jpg");
+  }
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .home-bg{
+      background-image: -webkit-linear-gradient(160deg, #000 50%, #D7D7D7 50%);
+    }
+  }
+
+  @media screen and (min-width:1400px) {
+    .home-bg{
+      background-image: -webkit-linear-gradient(160deg, #000 50%, #D7D7D7 50%);
+    }
+  }
