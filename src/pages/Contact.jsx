@@ -36,7 +36,7 @@ const Contact = () => {
           <div className='info-item flex items-center gap-[5px] xl:text-[25px] lg:text-[23px] md:text-[21px] sm:text-[19px] 2xs:text-[17px] xs:text-[13px]'>
             <img src={Linkedin} alt="" className='info-item_icon xl:w-[35px] lg:w-[33px] md:w-[31px] sm:w-[29px] 2xs:w-[27px] xs:w-[25px]'/>
             <strong className='info-item_title'>LinkedIn:</strong>
-            <a className='info-item_text' href="https://www.linkedin.com/in/alisahib-rasulov-499674243/" target="_blank" rel="noopener noreferrer">
+            <a className='info-item_text' href="https://www.linkedin.com/in/alisahibrasulov/" target="_blank" rel="noopener noreferrer">
               in/alisahib-rasulov
             </a>
           </div>
