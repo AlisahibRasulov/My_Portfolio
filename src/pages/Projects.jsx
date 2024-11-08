@@ -2,6 +2,7 @@ import React from 'react'
 import Facebook from "../image/Facebook.png"
 import Clothing from "../image/Clothing.png"
 import Message from "../image/Message.png"
+import Electro from "../image/ElectroAz.png"
 
 // ? Svg img 
 import Eye from "../image/Svg/eye.svg"
@@ -16,7 +17,7 @@ const Projects = () => {
       </div>
       <div className="projects_bottom bg-[#d0cdcd] px-[30px] py-[30px]">
         <div className="projects_images bg-slate-300 flex  xl:max-w-[80rem] xl:gap-[15px] xl:p-[20px] lg:max-w-[60rem] lg:gap-[15px] lg:p-[15px] md:max-w-[46rem] md:gap-[10px] md:py-[15px] md:px-[10px] md:flex-wrap md:justify-center sm:max-w-[25rem] sm:gap-[10px] sm:py-[15px] sm:px-[15px]  sm:flex-col sm:items-center 2xs:max-w-[20rem] 2xs:gap-[7px] 2xs:py-[15px] 2xs:px-[15px] 2xs:flex-wrap 2xs:justify-center xs:max-w-[15rem] xs:gap-[6px] xs:py-[15px] xs:px-[15px] xs:flex-wrap xs:justify-center ">
-          <div className='xl:w-[400px] lg:w-[380px] md:w-[350px] sm:w-[380px] 2xs:w-[320px] xs:w-[300px] h-auto image-content border4'>
+          <div className='xl:w-[400px] lg:w-[380px] md:w-[350px] sm:w-[380px] 2xs:w-[320px] xs:w-[300px] h-auto image-content border4'>target='_blank'
             <img src={Facebook} alt="" className='image w-full h-full'/>
             <div className="transition-link flex gap-[30px]">
               <a href="https://github.com/AlisahibRasulov/Facebook_Register" className=''>
@@ -24,14 +25,14 @@ const Projects = () => {
                 <img src={Github} alt="" className='w-[40px]'/>
                 </button>
               </a>
-                <a href="https://facebook-register-five.vercel.app/"  className=''>
+                <a href="https://facebook-register-five.vercel.app/" target='_blank' className=''>
                   <button className='link-btn bg-[#d0cdcd] p-[10px] rounded-[50%]'>
                   <img src={Eye} alt="" className='w-[40px]'/>
                   </button>   
                 </a>
             </div>
           </div>
-          <div className=' xl:w-[400px] lg:w-[380px] md:w-[350px] sm:w-[380px] 2xs:w-[320px] xs:w-[300px] h-auto image-content border4'>
+          <div className=' xl:w-[400px] lg:w-[380px] md:w-[350px] sm:w-[380px] 2xs:w-[320px] xs:w-[300px] h-auto image-content border4'>target='_blank'
             <img src={Clothing} alt="" className='image w-full h-full'/>
             <div className="transition-link flex gap-[30px]">
               <a href="https://github.com/AlisahibRasulov/Clothing_Store" className=''>
@@ -39,7 +40,7 @@ const Projects = () => {
                 <img src={Github} alt="" className='w-[40px]'/>
                 </button>
               </a>
-                <a href="https://clothing-store-rosy.vercel.app/"  className=''>
+                <a href="https://clothing-store-rosy.vercel.app/" target='_blank' className=''>
                   <button className='link-btn bg-[#d0cdcd] p-[10px] rounded-[50%]'>
                   <img src={Eye} alt="" className='w-[40px]'/>
                   </button>   
@@ -54,7 +55,22 @@ const Projects = () => {
                 <img src={Github} alt="" className='w-[40px]'/>
                 </button>
               </a>
-                <a href="https://message-five-mu.vercel.app/"  className=''>
+                <a href="https://message-five-mu.vercel.app/" target='_blank' className=''>
+                  <button className='link-btn bg-[#d0cdcd] p-[10px] rounded-[50%]'>
+                  <img src={Eye} alt="" className='w-[40px]'/>
+                  </button>   
+                </a>
+            </div>
+          </div>
+          <div className='xl:w-[400px] lg:w-[380px] md:w-[350px] sm:w-[380px] 2xs:w-[320px] xs:w-[300px] h-auto image-content border4'>
+            <img src={Electro} alt="" className='image w-full h-full'/>
+            <div className="transition-link flex gap-[30px]">
+              <a href="https://github.com/AlisahibRasulov/Electro.az-Json" className=''>
+                <button className='link-btn bg-[#d0cdcd] p-[10px] rounded-[50%]'>
+                <img src={Github} alt="" className='w-[40px]'/>
+                </button>
+              </a>
+                <a href="https://electroaz.vercel.app/" target='_blank' className=''>
                   <button className='link-btn bg-[#d0cdcd] p-[10px] rounded-[50%]'>
                   <img src={Eye} alt="" className='w-[40px]'/>
                   </button>   
