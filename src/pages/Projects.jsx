@@ -3,6 +3,7 @@ import Facebook from "../image/Facebook.png"
 import Clothing from "../image/Clothing.png"
 import Message from "../image/Message.png"
 import Electro from "../image/ElectroAz.png"
+import Glam from "../image/GlamStore.png"
 
 // ? Svg img 
 import Eye from "../image/Svg/eye.svg"
@@ -71,6 +72,21 @@ const Projects = () => {
                 </button>
               </a>
                 <a href="https://electroaz.vercel.app/" target='_blank' className=''>
+                  <button className='link-btn bg-[#d0cdcd] p-[10px] rounded-[50%]'>
+                  <img src={Eye} alt="" className='w-[40px]'/>
+                  </button>   
+                </a>
+            </div>
+          </div>
+          <div className='xl:w-[400px] lg:w-[380px] md:w-[350px] sm:w-[380px] 2xs:w-[320px] xs:w-[300px] h-auto image-content border4'>
+            <img src={Glam} alt="" className='image w-full h-full'/>
+            <div className="transition-link flex gap-[30px]">
+              <a href="https://github.com/AlisahibRasulov/GlamStore" className=''>
+                <button className='link-btn bg-[#d0cdcd] p-[10px] rounded-[50%]'>
+                <img src={Github} alt="" className='w-[40px]'/>
+                </button>
+              </a>
+                <a href="https://glam-store.vercel.app/" target='_blank' className=''>
                   <button className='link-btn bg-[#d0cdcd] p-[10px] rounded-[50%]'>
                   <img src={Eye} alt="" className='w-[40px]'/>
                   </button>   
